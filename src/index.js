@@ -1,9 +1,10 @@
 import app from "./app/app.js";
-// import mainImage from '../assets/eagle.jpg';
+import "./main.css";
 
-// const img = document.querySelector('img');
-
+const elvenShieldRecipe = {
+  leatherStrips: 2,
+  ironIngot: 1,
+  refinedMoonstone: 4,
+};
 
 console.log("HELLO FROM WEBPACK! INDEX workin");
-console.log('hi');
-// img.src = mainImage;

@@ -4,7 +4,6 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
   mode: "development",
-
   devServer: {
     port: 9000,
   },
@@ -17,9 +16,13 @@ module.exports = {
 
   module: {
     rules: [
+      {
+        test: /\.css$/,
+        use: ["style-loader", "css-loader"],
+      },
       // Images
       {
-        test: /\.(?:ico|gif|png|jpg|jpeg)$/i,
+        test: /\.(?:ico|svg|gif|png|jpg|jpeg)$/i,
         type: "asset/resource",
       },
     ],
