@@ -1,3 +1,9 @@
 import app from "./app/app.js";
+// import mainImage from '../assets/eagle.jpg';
 
-alert("HELLO FROM WEBPACK! INDEX");
+// const img = document.querySelector('img');
+
+
+console.log("HELLO FROM WEBPACK! INDEX workin");
+
+// img.src = mainImage;
