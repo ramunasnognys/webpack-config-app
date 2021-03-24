@@ -5,5 +5,5 @@ import app from "./app/app.js";
 
 
 console.log("HELLO FROM WEBPACK! INDEX workin");
-
+console.log('hi');
 // img.src = mainImage;
