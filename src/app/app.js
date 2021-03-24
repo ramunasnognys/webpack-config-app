@@ -1,5 +1,4 @@
 import msg from "./content.js";
-import "./message.css";
 
 var div = document.createElement("div");
 div.id = "message";

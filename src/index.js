@@ -1,5 +1,5 @@
 import app from "./app/app.js";
-import "./main.css";
+import "./main.scss";
 
 const elvenShieldRecipe = {
   leatherStrips: 2,
