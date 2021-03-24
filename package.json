@@ -10,6 +10,7 @@
   "author": " <Ramunas>",
   "license": "ISC",
   "homepage": "https://github.com/ramunasnognys/webpack-config-app#readme",
+  "url": "https://www.edc4it.com/en/blog/webpack-tutorial.html",
   "devDependencies": {
     "webpack": "^5.27.2",
     "webpack-cli": "^4.5.0"
