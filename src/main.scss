@@ -1,4 +1,6 @@
+$bg-color: magenta;
+
 body {
-  background: tomato;
-  color: pink;
+  background: $bg-color;
+  color: rgb(243, 255, 71);
 }

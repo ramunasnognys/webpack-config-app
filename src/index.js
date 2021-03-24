@@ -7,4 +7,4 @@ const elvenShieldRecipe = {
   refinedMoonstone: 4,
 };
 
-console.log("HELLO FROM WEBPACK! INDEX workin");
+console.log("Hey you");
