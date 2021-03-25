@@ -17,7 +17,6 @@ module.exports = {
 
   module: {
     rules: [
-      
       // Images
       {
         test: /\.(?:ico|svg|gif|png|jpg|jpeg)$/i,
