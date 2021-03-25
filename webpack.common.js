@@ -14,6 +14,9 @@ module.exports = {
       inject: "body",
     }),
   ],
+  output: {
+   assetModuleFilename: 'images/[hash][ext][query]'
+  },
 
   module: {
     rules: [
@@ -21,7 +24,14 @@ module.exports = {
       {
         test: /\.(?:ico|svg|gif|png|jpg|jpeg)$/i,
         type: "asset/resource",
+        
+      },
+      {
+        test: /\.html$/i,
+        loader: 'html-loader',
+        
       },
     ],
   },
+
 };
