@@ -14,7 +14,49 @@ img {
 .hero {
   // background: url(../assets/girl.png);
   background-position: center;
-  background-size: cover;
+  background-size: contain;
   height: 300px;
   width: 100%;
+}
+#wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+}
+
+h1,
+h2,
+h3 {
+  font-family: Helvetica-Bold;
+  letter-spacing: -1.5px;
+  color: #898989;
+  margin: 2px 1px;
+}
+#sky {
+  overflow: hidden;
+  border: solid 0.5px #f2f2f2;
+  background: linear-gradient(
+    0deg,
+    #f2eefc,
+    #e4ddfa,
+    #d7ccf7,
+    #cabbf4,
+    #bcabf2,
+    #af9aef,
+    #ffffff
+  );
+  background-size: 1400% 1400%;
+  animation: sky 19s ease infinite;
+}
+@keyframes sky {
+  0% {
+    background-position: 0% 13%;
+  }
+  50% {
+    background-position: 100% 88%;
+  }
+  100% {
+    background-position: 0% 13%;
+  }
 }
