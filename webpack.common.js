@@ -9,7 +9,6 @@ module.exports = {
 
   plugins: [
     new HtmlWebpackPlugin({
-      // template: "index.html",
       template: "./src/template.html",
       inject: "body",
     }),
@@ -21,6 +20,11 @@ module.exports = {
       {
         test: /\.(?:ico|svg|gif|png|jpg|jpeg)$/i,
         type: "asset/resource",
+      },
+
+      {
+        test: /\.html$/i,
+        loader: "html-loader",
       },
     ],
   },

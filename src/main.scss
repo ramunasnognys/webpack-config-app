@@ -1,10 +1,23 @@
-$bg-color: magenta;
+$bg-color: brown;
 
 body {
   background: $bg-color;
-  color: rgb(243, 255, 71);
+  color: rgb(243, 233, 233);
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  width: 50vw;
+}
+
+.hero {
+  // background: url(../assets/girl.png);
+  background-position: center;
+  background-size: contain;
+  height: 300px;
+  width: 100%;
+}
 #wrapper {
   display: flex;
   flex-direction: column;
