@@ -16,6 +16,13 @@ module.exports = {
 
   module: {
     rules: [
+      // JavaScript: Use Babel to transpile JavaScript files
+      {
+        test: /\.js$/,
+        exclude: /node_modules/,
+        use: ["babel-loader"],
+      },
+
       // Images
       {
         test: /\.(?:ico|svg|gif|png|jpg|jpeg)$/i,

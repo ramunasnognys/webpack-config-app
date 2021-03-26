@@ -9,4 +9,4 @@ document.body.appendChild(div);
 document.write(msg);
 console.log("eagle boilerplate APP");
 console.log("new log");
-console.log("new logasss");
+console.log("new Ramunassss6Ramas66");
