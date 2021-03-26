@@ -1,14 +1,29 @@
-$bg-color: brown;
+:root {
+  --text: #222;
+}
 
+$bg-color: brown;
+h1 {
+  font-size: 2rem;
+}
 body {
   background: $bg-color;
-  color: rgb(243, 233, 233);
+  color: var(--text);
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
 }
 
 img {
   display: block;
   max-width: 100%;
   width: 50vw;
+}
+#root {
+  background: yellow;
+  display: inline-block;
 }
 
 .hero {

@@ -5,6 +5,8 @@ const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
 module.exports = merge(common, {
   mode: "production",
+  devtool: "source-map",
+
   output: {
     filename: "[name].[contenthash].bundle.js",
     path: path.resolve(__dirname, "dist"), // output directory
@@ -25,6 +27,7 @@ module.exports = merge(common, {
         use: [
           MiniCssExtractPlugin.loader, //3. Extract CSS into files
           "css-loader", //2. Turns css into commonjs
+          // "postcss-loader",
           "sass-loader", //1. Turns sass into css
         ],
       },

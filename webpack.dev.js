@@ -4,9 +4,15 @@ const { merge } = require("webpack-merge");
 
 module.exports = merge(common, {
   mode: "development",
+  devtool: "inline-source-map",
 
   devServer: {
-    port: 9000,
+    historyApiFallback: true,
+
+    open: true,
+    compress: true,
+    // hot: true,
+    port: 8080,
   },
 
   output: {
@@ -21,11 +27,10 @@ module.exports = merge(common, {
         use: [
           "style-loader", //3. Inject styles into DOM
           "css-loader", //2. Turns css into commonjs
+          // "postcss-loader",
           "sass-loader", //1. Turns sass into css
         ],
       },
     ],
   },
-
-  
 });

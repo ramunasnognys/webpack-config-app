@@ -1,11 +1,16 @@
 import msg from "./content.js";
 
-var div = document.createElement("div");
-div.id = "message";
-var txtNode = document.createTextNode(msg);
-div.appendChild(txtNode);
-document.body.appendChild(div);
+const elvenShieldRecipe = {
+  leatherStrips: 2,
+  ironIngot: 1,
+  refinedMoonstone: 4,
+};
 
-document.write(msg);
-console.log("eagle boilerplate APP");
-console.log("new log");
+// ES7 Object spread example
+const elvenGauntletsRecipe = {
+  ...elvenShieldRecipe,
+  leather: 1,
+  refinedMoonstone: 1,
+};
+console.log("ES7 Object spread example: ", elvenShieldRecipe);
+console.log("ES7 Object spread example: ", elvenGauntletsRecipe);
