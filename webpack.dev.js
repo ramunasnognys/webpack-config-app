@@ -5,6 +5,9 @@ const { merge } = require("webpack-merge");
 module.exports = merge(common, {
   mode: "development",
 
+  // Control how source maps are generated
+  devtool: "source-map",
+
   devServer: {
     port: 9000,
   },
@@ -26,6 +29,4 @@ module.exports = merge(common, {
       },
     ],
   },
-
-  
 });
