@@ -1,1 +1,1 @@
-export default "hello friend! CONTENT";
+export default "hello friend! ssdd CONTENT 666667";
