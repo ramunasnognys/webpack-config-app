@@ -1,0 +1,31 @@
+#sky {
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  border: solid 0.5px #f2f2f2;
+  background: linear-gradient(
+    0deg,
+    #f2eefc,
+    #e4ddfa,
+    #d7ccf7,
+    #cabbf4,
+    #bcabf2,
+    #af9aef,
+    #ffffff
+  );
+
+  background-size: 1400% 1400%;
+  animation: sky 19s ease infinite;
+}
+
+@keyframes sky {
+  0% {
+    background-position: 0% 13%;
+  }
+  50% {
+    background-position: 100% 88%;
+  }
+  100% {
+    background-position: 0% 13%;
+  }
+}

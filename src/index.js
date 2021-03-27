@@ -1,5 +1,5 @@
 import app from "./js/app.js";
-import "./main.scss";
+import "./styles/index.scss";
 // import MyImage from './assets/eagle.jpg'
 
 const elvenShieldRecipe = {

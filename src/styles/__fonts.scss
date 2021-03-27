@@ -1,0 +1,21 @@
+// we will import out external fonts here and create our font families here
+
+@font-face {
+    font-family: 'Roboto_Regular';
+    src: url('../assets/fonts/roboto/Roboto-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Roboto_Medium';
+    src: url('../assets/fonts/roboto/Roboto-Medium.ttf') format('trueType');
+}
+
+@font-face {
+    font-family: 'Roboto_Bold';
+    src: url('../assets/fonts/roboto/Roboto-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Monserat';
+    src:url( ../assets/fonts/montserrat/Montserrat-Medium.ttf)
+  }
