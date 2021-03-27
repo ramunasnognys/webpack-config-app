@@ -1,1 +1,1 @@
-export default "hello friend! ssdd CONTENT 666667";
+export default 'content.js file'

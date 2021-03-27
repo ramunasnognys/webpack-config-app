@@ -1,15 +1,15 @@
 body {
-    width: 100%;
-    height: 100%;
-    padding: 0;
-    margin: 0;
-  
-    font-family: 'Roboto_Medium';
-  }
-  
-  * {
-    box-sizing: border-box;
-  }
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+
+  font-family: 'Roboto_Medium';
+}
+
+* {
+  box-sizing: border-box;
+}
 
 //   .mob_hidden {
 //     display: block;
@@ -17,11 +17,10 @@ body {
 //       display: none;
 //     }
 //   }
-  
+
 //   .tab_hidden {
 //     display: block;
 //     @include responsive_tab() {
 //       display: none;
 //     }
 //   }
-  

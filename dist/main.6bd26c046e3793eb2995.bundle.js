@@ -1,0 +1,1 @@
+(()=>{"use strict";const e="content.js file";var o=document.createElement("div");o.id="message";var n=document.createTextNode(e);o.appendChild(n),document.body.appendChild(o),document.write(e),console.log("eagle boilerplate APP"),console.log("new log"),console.log("new Ramunassss6Ramas66"),console.log("Hey you ramas")})();

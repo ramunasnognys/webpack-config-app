@@ -1,5 +1,6 @@
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
+var PrettierPlugin = require("prettier-webpack-plugin");
 
 module.exports = {
   entry: {
@@ -12,6 +13,9 @@ module.exports = {
       template: "./src/template.html",
       inject: "body",
     }),
+
+    // Prettier configuration
+    new PrettierPlugin(),
   ],
 
   module: {
