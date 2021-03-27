@@ -29,6 +29,12 @@ module.exports = {
         type: "asset/resource",
       },
 
+      // Fonts and SVGs
+      {
+        test: /\.(woff(2)?|eot|ttf|otf|)$/,
+        type: "asset/inline",
+      },
+
       {
         test: /\.html$/i,
         loader: "html-loader",

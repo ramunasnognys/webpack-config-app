@@ -1,12 +1,18 @@
+@import 'assets/fonts';
+
 :root {
-  --color: #222;
+  --color: white;
+  --ff-primary: Monserat; 
 }
+
 
 $bg-color: rgb(86, 107, 82);
 
 body {
   background: $bg-color;
   color: var(--color);
+  font-size: 1.2em;
+  font-family: var(--ff-primary);
 }
 
 img {
@@ -66,3 +72,4 @@ h3 {
     background-position: 0% 13%;
   }
 }
+
