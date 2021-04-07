@@ -1,20 +1,20 @@
-const path = require("path");
-const common = require("./webpack.common");
-const { merge } = require("webpack-merge");
+const path = require('path')
+const common = require('./webpack.common')
+const { merge } = require('webpack-merge')
 
 module.exports = merge(common, {
-  mode: "development",
+  mode: 'development',
 
   // Control how source maps are generated
-  devtool: "source-map",
+  devtool: 'source-map',
 
   devServer: {
-    port: 9000,
+    port: 8080,
   },
 
   output: {
-    filename: "[name].bundle.js",
-    path: path.resolve(__dirname, "dist"), // output directory
+    filename: '[name].bundle.js',
+    path: path.resolve(__dirname, 'dist'), // output directory
   },
 
   module: {
@@ -22,12 +22,12 @@ module.exports = merge(common, {
       {
         test: /\.(s[ac]|c)ss$/i,
         use: [
-          "style-loader", //3. Inject styles into DOM
-          "css-loader", //2. Turns css into commonjs
-          "postcss-loader",
-          "sass-loader", //1. Turns sass into css
+          'style-loader', //3. Inject styles into DOM
+          'css-loader', //2. Turns css into commonjs
+          'postcss-loader',
+          'sass-loader', //1. Turns sass into css
         ],
       },
     ],
   },
-});
+})
